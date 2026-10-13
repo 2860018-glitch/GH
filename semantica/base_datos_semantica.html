@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de datos semántica</title>
+</head>
+<h1>Introduccion a la Base de Datos</h1>        
+<body>
+   <header>
+    <nav>
+       <ul>
+            <li> <a href="#Concepto y tipos">Conceptos y tipos </a></li>
+            <li> <a href="#Estructura de datos">Estructura de datos</a></li>
+            <li> <a href="#Relaciones">Relaciones</a></li>
+            <li> <a href="#Recursos del interes">Recursos del interes</a></li>
+       </ul> 
+    </nav>
+   </header>
+   <main>
+    <section>
+        <h2 id="Concepto y tipos">Conceptos y tipos</h2>
+        <article>
+            <h3>Bases de datos Relacionales(RDBMS)</h3>
+            <p>Es un sistema que organiza la información en tablas compuestas por filas (registros) y columnas (atributos), las cuales se conectan entre sí mediante identificadores y un RDBMS es el software que permite crear, consultar, actualizar y administrar estas bases de datos.</p>
+            <p>Los ejemplos mas populares son: <mark style="background-color:   rgb(0, 124, 128); color:  rgb(247, 247, 247);">MYSQL</mark>, <mark style="background-color: rgb(0, 124, 128); color: white;">PostgreSQL</mark> y <mark style="background-color: rgb(0, 115, 128); color: white;">Oracle</mark>.</p>
+            </article>
+            <h3>Bases de datos No Relacionales(NOSQL)</h3>
+            <p>almacenan la información sin usar el clásico formato de tablas con filas y columnas de las bases relacionales, permitiendo una gran flexibilidad y escalabilidad.</p>
+            <p>Los ejemplos de NOSQL son: <mark style="background-color:    rgb(128, 0, 70); color:  rgb(247, 247, 247);">Orientadas a documentos</mark>, <mark style="background-color: rgb(128, 0, 70); color: white;"> Clave-Valor</mark> y <mark style="background-color:  rgb(128, 0, 70); color: white;">Orientación a Columnas</mark>.</p>
+        </article>
+    </section>
+        <section>
+        <h2 id="Estructuras de datos">Estructura de una base de datos renacional</h2>
+        <article>
+            <h4>Componentes Fundamentales </h4>
+            <p> Para definir la estructura dentro de un modelo relacional se emplean los siguientes elementos: </p>
+            <ul>
+                <li><Strong>Tablas(Entidades):</Strong> Objetos principales sobre los cuales almacenan información estructurada</li> 
+                <li><strong>Campos(Atributo):</strong> Columnas que definen la tipología de información. </li>
+                <li><strong>Registros(Tuplas):</strong> Filas que contienen cada instancia concreta de datos</li>
+                <li><strong>Claves Primarias(Primery Keys):</strong> únicos de cada registro. </li>
+            </ul>
+        </article>
+    </section>
+        <section>
+        <article>
+        <h2 id="Relaciones">Relaciones Entre Tablas</h2>
+        <h2>Cardinalidades y Claves Fóraneas</h2>
+        <ul>
+                <li><Strong>Relación 1:1 (Uno a uno)</Strong>  donde un registro de una entidad se relaciona con un único registro de otra entidad</li> 
+                <li><strong>Relación 1:N(Uno a mucho)</strong> aquella en la que un registro de una tabla principal puede estar asociado con varios registros en otra tabla secundaria,  </li>
+                <li><strong>Relación N:M(Muchos a Muchos):</strong> ocurre en las bases de datos cuando varios registros de una entidad se pueden asociar con varios registros de otra</li>
+                <li><strong>Clave Foránea(Foreing key) :</strong> columna o conjunto de columnas en una tabla que apunta a la clave primaria</li>
+       </article>
+       </section>
+   </main>
+  <aside>
+    
+   <section>
+        <h3>Glosario de términos</h3>
+        <dl>
+            <dt><strong>SQL</strong></dt>
+            <dd>Lenguaje de consulta estructurado utilizado para administrar y recuperar información de bases de datos relacionales.</dd>
+            
+            <dt><strong>SGBD</strong></dt>
+            <dd>Sistema de Gestión de Base de Datos; software que permite a los usuarios crear, leer, actualizar y almacenar datos en una base de datos.</dd>
+            
+            <dt><strong>Normalización</strong></dt>
+            <dd>Proceso de organizar los datos en una base de datos para evitar la redundancia y mejorar la integridad de la información.</dd>
+        </dl>
+        <h3>Enlaces de Intéres:</h3>
+     <ul>
+
+        <li> <a href="https://developer.mozilla.org" target="_blank">Documentación oficial en MDN Web Docs</a></li>
+        <li> <a href="https://www.mysql.com"  target="_blank">Sitio oficial de MSQL</a></li>
+        <li> <a href="https://www.postgresql.org" target="_blank">Sitio ofical de PostgreSQL</a></li>
+        
+     </ul>
+   </section> 
+  </aside>
+
+   
+</body>
+</html>
