@@ -7,16 +7,192 @@
 </head>
 <body>
     
-    <table border="1" bordercolor="red">
+       
+    <style>
+        
+        table {
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+
+    <h1>Ejercicios de Tablas HTML</h1>
+
+   
+    <h2>Tabla 1</h2>
+   <table>
        
         <tr>
-            <td rowspan="2">1º</td>
-            <td></td>
-            <td></td>
+           
+            <td colspan="2">celda 1</td>
+            <td>celda 2</td>
+            <td>celda 3</td>
+         
+            <td>celda 4</td>
+        </tr>
+        
+        
+        <tr>
+            
+            <td>
+                <table>
+                    <tr>
+                        <td>celda 5</td>
+                        <td>celda 6</td>
+                    </tr>
+                    <tr>
+                        <td>celda 7</td>
+                        <td>celda 8</td>
+                    </tr>
+                </table>
+            </td>
+            <td>celda 9</td>
+            <td>celda 10</td>
+            <td colspan="2">celda 11</td>
+        </tr>
+    </table>
+  
+    <h2>Tabla 2</h2>
+   
+    <table>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
         </tr>
+      
+    </table>
+   
+    <h2>Tabla 3</h2>
+    <table>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+    </table>
+
+    <h2>Tabla 4</h2>
+   
+<h2>Tabla 4</h2>
+    <table>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td rowspan="2">
+                <!-- Tabla anidada central de la Tabla 4 -->
+                <table>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                    <tr><td>Celda</td><td>Celda</td></tr>
+                </table>
+            </td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+    </table>
+   
+    <h2>Tabla 5</h2>
+    
+    <table border="1">
+    <tr>
+        <td colspan="2" rowspan="4">
+            <table border="1">
+                <tr><td>Celda</td><td>Celda</td></tr>
+                <tr><td>Celda</td><td>Celda</td></tr>
+                <tr><td>Celda</td><td>Celda</td></tr>
+                <tr><td>Celda</td><td>Celda</td></tr>
+            </table>
+        </td>
+        <td rowspan="4">Celda</td>
+        <td rowspan="4">Celda</td>
+        <td rowspan="4">Celda</td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
+    <tr>
+        <td colspan="2">Celda</td>
+        <td>Celda</td>
+        <td>Celda</td>
+        <td>Celda</td>
+    </tr>
+</table>
+
+
+    <h2>Tabla 6</h2>
+    <table>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+      
+    </table>
+
+    
+    <h2>Tabla 7</h2>
+    <table>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        <tr>
+            <td>Celda</td>
+            <td>Celda</td>
+            <td>Celda</td>
+        </tr>
+        
+    </table>
+
 </body>
 </html>
