@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer Formulario</title>
+</head>
+
+<body>
+     
+    <h1>Mi primer Formulario</h1>
+    <fieldset>
+    <legend>Completar</legend>
+    <label for="color">Elige un color:</label>
+    <input type="color" name="color" id="color">
+    <br/>
+    <textarea name="comentarios"  cols="53" rows="5" placeholder="Por favor,escriba aqui..."></textarea>
+    <form action="/enviar" method="post">
+  <label for="opciones">Elige una opción:</label>
+    <select nombre="lenguaje" id="opciones">
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value="javascript">JavaScript</option>
+    </select>
+    <br/>
+    
+        <input type="checkbox">DAM
+        <input type="checkbox">DAW
+        <input type="checkbox">ASIR
+    </fieldset>
+    
+<fieldset>
+     <legend>Rellene las opciones siguientes</legend>
+        <p>Elija una fecha:<input type="date"></p>
+        <p>Elija un fichero:<input type="file"></p>
+
+        <label for="multiple"></label>
+        <select nombre="ciclo" id="multiple" multiple>
+            <textarea name="comentarios"  cols="53" rows="5"></textarea>
+            <option value="smir">SMIR</option>
+            <option value="dam">DAM</option>
+            <option value="daw">DAW</option>
+            <option value="asir">ASIR</option>
+        </select>   
+ </fieldset>
+
+ <br/>
+
+ <h1>Segundo Formulario</h1>
+
+ <fieldset>
+    <legend>Rellenar</legend>
+
+    <label for="radiobutton"></label>
+    <input type="radio" name="Asignatura" value="asignaturalengua">Lengua
+    <br/>
+    <input type="radio" name="Asignatura" value="asignaturamatematicas">Matemáticas
+    <br/>
+    <input type="radio" name="Asignatura" value="asignaturahistoria">Historia
+    <br/>
+     <input type="radio" name="Asignatura" value="asignaturageografia">Geografía
+    <br/>
+    <br/>
+    <label for="checkbox"></label>
+        <input type="checkbox">Notepad
+        <input type="checkbox">Emacs
+        <input type="checkbox">Otro
+            <textarea name="comentarios"  cols="59" rows="5" placeholder="Escriba aquí, por favor..."></textarea>
+        <br/>
+    <label for="opciones"></label>
+        <select nombre="lenguaje" id="opciones">
+            <option value="amd">AMD</option>
+            <option value="intel_i5">Intel i5</option>
+            <option value="intel_i7">Intel i7</option>
+        </select>
+
+ </fieldset>
+
+    <h1>Tercer Formulario</h1>
+
+      <fieldset>
+        <legend>Rellenar</legend>
+        <label for="checkbox"></label>
+        <input type="checkbox">Geografía
+        <input type="checkbox">Lengua
+        <input type="checkbox">Matemáticas
+        <input type="checkbox">Historia
+        
+
+        <p><label for="time">Elija una hora: </label>
+        <input type="time" id="time"></p>
+
+        <input type="checkbox">Español
+        <br/>
+        <input type="checkbox">Inglés
+        <br/>
+        <input type="checkbox">Alemán
+        <br/>
+        <input type="checkbox">Francés
+        
+        <p><label for="name">Nombre</label>
+        <input type="name" id="name"> </p>
+        <p><label for="name">Apellidos</label>
+        <input type="name" id="name"></p>
+      </fieldset>
+</body>
+</html>
