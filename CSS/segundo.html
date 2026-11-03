@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo de CSS</title>
+    <h1>Practicas de CSS</h1>
+
+    <style>
+        ul.lista > li { 
+            color:red;
+            font-size:20 px;
+        }
+        h2+p{
+            color:green;
+        
+        }
+        input [type="text"]{
+            border: 3px solid red;
+        }
+         .parrafo_rojo{
+        color:red;
+         }
+        .parrafo_verde{
+        color:green;
+        }
+        .parrafo_verde:hover{
+            font-weight: bold;
+            font-size: 30px;
+            background-image: url("caballo.webp");      
+        }
+        .parrafo_azul{
+        color:blue;
+        } 
+        input:focus{
+            border: 5px red dashed;
+        }
+        tr:nth-child(odd){
+            background-color: yellow;
+        }
+        p.parrafo_rojo::first-letter{
+            font-size:2.5em;
+            font-weight: bold;
+            color:#2b6cb0;
+        }
+       .bloque{
+        width: 900px;
+        min-width: 900px;
+        height: 9%;
+        border: 4px solid red;
+        border-radius: 8px;
+       }
+        
+    </style>
+</head>
+<body>
+
+    <!--Primer  Ejercicio-->
+    <ul class="lista">
+        <li>Primer elemento de la lista</li>
+        <ol>
+            <li>Primer elemento de la lista anidada</li>
+            <li>Segundo elemento de la lista anidada</li>
+        </ol>
+        <li>Tercer elemento de la lista</li>
+    </ul>  
+
+    <!--Segundo Ejercicio-->
+    <p>Mi primer parrafo:</p>
+    <h2>Esto es un encabezado de segundo nivel</h2>
+    <p>Mi segundo parrafo:</p>
+    <p>Mi tercer parrafo:</p>
+
+    <!--Tercer Ejercicio-->
+<form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+    <laber for="edad">Edad:</laber>
+    <input type="number" step="5" id="edad"/>
+    <input type="submit" value="Enviar"/> 
+</form>
+  
+    <!--Cuarto Ejercicio-->
+
+    <p class="parrafo_rojo">Párrafo en rojo</p>
+    <p class="parrafo_verde">Párrafo en verde</p>
+    <p class="parrafo_azul">Párrafo en azul</p>
+
+   <!-- Quinto Ejercicio -->
+   <table>
+     <tr>
+        <td>Celda</td><td>Celda</td><td>Celda</td><td>Celda</td><td>Celda</td>
+     </tr>
+     <tr>
+        <td>Celda</td><td>Celda</td><td>Celda</td><td>Celda</td>
+     </tr>
+      <tr>
+        <td>Celda</td><td>Celda</td><td>Celda</td><td>Celda</td><td>Celda</td>
+     </tr>
+     <tr>
+        <td>Celda</td><td>Celda</td><td>Celda</td><td>Celda</td>
+     </tr>
+   </table>
+
+    <!-- Sexto Ejercicio -->
+   <div class="bloque">
+   <img src="caballo.webp" style="margin: 0 px auto; display:block; width: 100%;"/>
+   </div>
+
+
+</body>
+</html>
