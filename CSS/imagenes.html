@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centrando Imágenes</title>
+    <style>
+        .img{
+            display: block;
+            margin: 20px auto;
+            height: 300px;
+        }
+       
+        .cabecera_fija{
+            position: center;
+            left: 80%;
+            top: 0;
+            width: 100%;
+        }
+        .cabezera_centrada{
+            position:fixed;
+            left: 80%;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Centrando Imágenes</h1>
+    <div class="cabecera_fija">
+        <div> <img src="caballo.webp"  width="200px"></div>
+    <img src="caballo.webp" class="img" width="200px">
+  </div>
+    <div class="cabezera_centrada">
+        <div> <img src="burro.jpg"  width="200px"></div>
+   
+    </div>
+    
+
+</body>
+</html>
